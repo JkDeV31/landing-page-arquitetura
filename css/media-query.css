@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+
+   #location{
+      height: 400px;
+      flex-direction: row;
+      padding: 0;
+   }
+
+   #address {
+      width: auto;
+      flex-direction: row;
+      order: 2;
+   }
+
+   #about-location {
+      max-width: 30%;
+   }
+
+   #about-location p {
+      display: flex;
+      line-height: 1.5em;
+   }
+
+   #address i {
+      margin-right: 0.5em;
+   }
+
+   #about-location h3 {
+      margin-bottom: 1em;
+   }
+}
+
+@media screen and (min-width: 992px) {
+   #event-subscription {
+      height: 85vh;
+      flex-direction: row;
+      justify-content: space-around;
+   }
+
+   #disclaimer h2 {
+      margin-bottom: 1em;
+   }
+
+   #subscription-form {
+      max-width: 22%;
+      margin-bottom: 0;
+   }
+
+   .benefits {
+      width: 80%;
+      flex-direction: row;
+      padding: 4em;
+   }
+
+   .benefit {
+      max-width: 20%;
+   }
+
+   #location {
+      height: 400px;
+      flex-direction: row;
+      padding: 0;
+   }
+
+   #address
+   #about-location {
+      max-width: 30%;
+   }
+
+   #address {
+      flex-direction: row;
+      order: 0;
+   }
+
+   #address i {
+      margin-right: 0.5em;
+   }
+
+   #about-location h3 {
+      margin-bottom: 1em;
+   }
+
+   #about-location p {
+      line-height: 1.5em;
+      display: flex;
+   }
+
+   .detail {
+      flex-direction: row;
+      gap: 5%;
+      margin-bottom: 4em;
+   }
+
+   .detail img {
+      width: 50%;
+      margin: 0;
+   }
+
+   #detail-1 h3 {
+      font-size: 3em;
+   }
+
+   #detail-3 img {
+      order: 0;
+   }
+
+   .detail-description {
+      padding-left: 2em;
+   }
+
+   #detail-3 .detail-description {
+      order: 0;
+   }
+
+   #cta .btn {
+      width: 30%;
+   }
+}
