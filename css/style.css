@@ -27,7 +27,7 @@
     color: var(--text-color);
   }
   
-  #disclaimer h2,
+  #disclaimer h1,
   #disclaimer .event-date {
     color: var(--primary);
   } 
@@ -36,7 +36,7 @@
     padding: 2em;
   }
   
-  #disclaimer h2 {
+  #disclaimer h1 {
     font-size: 3em;
     margin-bottom: 0.5em;
   }
@@ -102,25 +102,29 @@
   }
 
   .form-group input:focus-visible,
-  .form-group select:focus-visible,
-  #cta .btn:focus-visible {
+  .form-group select:focus-visible {
     outline: 3px solid #163e50;
+    outline-offset: 3px;
+  }
+
+  #cta .btn:focus-visible {
+    outline: 3px solid #fff;
     outline-offset: 3px;
   }
 
   .btn {
     background-color: var(--primary);
-    color: var(--text-color);
+    color: #102f3a;
     text-transform: uppercase;
     width: 100%;
     padding: 12px;
     border: none;
     cursor: pointer;
-    opacity: 0.8;
+    opacity: 1;
   }
   
-  .btn:hover {
-    opacity: 1;
+  .btn:not(:disabled):hover {
+    filter: brightness(0.94);
   }
 
   #subscription-form .btn:disabled {
