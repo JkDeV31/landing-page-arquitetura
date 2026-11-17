@@ -28,6 +28,9 @@ Não há JavaScript nem sistema de inscrição implementado neste repositório.
 - `css/style.css` — estilos principais.
 - `css/media-query.css` — estilos para diferentes larguras de tela.
 - `img/` — imagens utilizadas no layout.
+- `img/preview-social.jpg` — imagem de compartilhamento para links em redes sociais; reutiliza a foto já presente em `img/hrz-5.jpg`.
+
+A página inclui metadados **Open Graph** e **Twitter Card** para apresentar título, descrição e imagem quando o link for compartilhado. A atualização das prévias em plataformas externas pode depender do cache de cada rede.
 
 ## Como executar localmente
 
