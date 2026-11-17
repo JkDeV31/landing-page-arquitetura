@@ -42,7 +42,7 @@ A tipografia e os ícones externos exigem conexão com a internet.
 - O formulário é um componente de demonstração, identificado por aviso e com botão de envio desabilitado.
 - Os rótulos dos campos estão associados aos respectivos controles, e há indicação visual de foco para navegação por teclado.
 - O botão da seção final agora é um link interno que leva ao formulário demonstrativo.
-- Alguns textos de benefícios ainda são provisórios e precisam ser revisados antes de usar o projeto como material de apresentação profissional.
+- A seção de benefícios apresenta temas ilustrativos de organização de ambientes, cores e materiais, móveis, iluminação e decoração. São exemplos editoriais de um evento fictício, não conteúdos de um evento real.
 - Ainda não foi realizada auditoria completa de acessibilidade (WCAG), desempenho ou testes visuais em todos os dispositivos.
 
 ## Autor
