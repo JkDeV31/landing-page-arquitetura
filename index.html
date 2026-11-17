@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InDecor</title>
+    <title>InDecor | Landing page demonstrativa de evento</title>
+    <meta name="description" content="Projeto educacional de landing page para um evento fictício de design de interiores. O formulário é demonstrativo e não recebe inscrições.">
      <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media-query.css">
@@ -23,25 +24,27 @@
       </p>
       <p>Data do evento:</p>
       <p class="event-date">Domingo, 28 de Maio, a partir das 14h</p>
+      <p class="demo-notice">Projeto educacional: evento, data e endereço fictícios. Não há inscrições reais.</p>
     </div>
     <div id="subscription-form">
-      <p>Preencha o formulário para receber os detalhes do evento</p>
-      <form>
+      <p>Exemplo de formulário de inscrição</p>
+      <p id="demo-form-note">Este formulário é apenas demonstrativo: não envia dados nem registra inscrições. Não informe dados reais.</p>
+      <form aria-label="Formulário demonstrativo, sem envio" aria-describedby="demo-form-note" autocomplete="off">
         <div class="form-group">
           <label for="name">Nome</label>
-          <input type="text" placeholder="Digite seu nome" />
+          <input id="name" name="name" type="text" placeholder="Digite seu nome" />
         </div>
         <div class="form-group">
           <label for="email">E-mail</label>
-          <input type="email" placeholder="Digite seu melhor e-mail" />
+          <input id="email" name="email" type="email" placeholder="Digite seu melhor e-mail" />
         </div>
         <div class="form-group">
           <label for="phone">Telefone</label>
-          <input type="text" placeholder="Número de Whatsapp" />
+          <input id="phone" name="phone" type="tel" placeholder="Número de WhatsApp" />
         </div>
         <div class="form-group">
           <label for="interest">Principal interesse</label>
-          <select name="interest">
+          <select id="interest" name="interest">
             <option value="" disabled selected>Selecione</option>
             <option value="apartment">Apartamentos</option>
             <option value="house">Casas</option>
@@ -49,7 +52,7 @@
             <option value="other">Outro</option>
           </select>
         </div>
-        <input type="submit" class="btn" value="Quero me inscrever" />
+        <button type="button" class="btn" disabled>Inscrições indisponíveis</button>
       </form>
     </div>
   </header>
@@ -83,8 +86,8 @@
     <div id="address">
       <i class="bi bi-geo-alt-fill"></i>
       <div id="address-details">
-        <p>Rua do evento, 1333</p>
-        <p>Bairro</p>
+        <p>Endereço fictício</p>
+        <p>Local ilustrativo — sem evento real</p>
         <p>Abertura: 14h</p>
       </div>
     </div>
@@ -133,14 +136,13 @@
     </div>
   </section>
   <section id="cta">
-    <h3>Gostou? Então se inscreva:</h3>
-    <button class="btn">Solicitar Inscrição</button>
+    <h3>Veja como funciona um formulário de inscrição</h3>
+    <a class="btn" href="#subscription-form">Ver formulário demonstrativo</a>
   </section>
   <footer id="footer">
     <h3>InDecor</h3>
     <p>A evolução da decoração de interiores</p>
-    <p><span>Entre em contato:</span> oi@indecor.com.br</p>
-    <p><span>Ou pelo telefone:</span> (55)99990-9999</p>
+    <p>Projeto educacional: não há contato comercial, evento ou inscrições reais.</p>
   </footer>
 </body>
 </html>
