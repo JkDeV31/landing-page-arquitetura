@@ -57,6 +57,12 @@
   #disclaimer .event-date {
     font-weight: bold;
   }
+
+  #disclaimer .demo-notice {
+    font-size: 0.9em;
+    line-height: 1.5;
+    max-width: 350px;
+  }
   
   #subscription-form {
     background-color: var(--secondary);
@@ -70,6 +76,11 @@
     color: var(--text-secondary);
     margin-bottom: 1em;
   }
+
+  #subscription-form #demo-form-note {
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
   
   .form-group {
     display: flex;
@@ -78,7 +89,7 @@
   }
   
   .form-group label {
-    color: var(--text-tertiary);
+    color: var(--text-secondary);
     margin-bottom: 0.3em;
     font-weight: bold;
   }
@@ -88,9 +99,15 @@
     padding: 6px 8px;
     border-radius: 5px;
     border: none;
-    outline: none;
   }
-  
+
+  .form-group input:focus-visible,
+  .form-group select:focus-visible,
+  #cta .btn:focus-visible {
+    outline: 3px solid #163e50;
+    outline-offset: 3px;
+  }
+
   .btn {
     background-color: var(--primary);
     color: var(--text-color);
@@ -104,6 +121,11 @@
   
   .btn:hover {
     opacity: 1;
+  }
+
+  #subscription-form .btn:disabled {
+    cursor: default;
+    opacity: 0.8;
   }
   
   /* Benefits section */
@@ -288,6 +310,9 @@
   }
   
   #cta .btn {
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
     width: 80%;
     margin: 0 auto;
     font-weight: 600;
