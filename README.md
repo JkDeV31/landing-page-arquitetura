@@ -6,6 +6,12 @@ Landing page **educacional** para simular a divulgação de um evento de design 
 
 **[Ver a demonstração no GitHub Pages](https://jkdev31.github.io/landing-page-arquitetura/)**
 
+## Prévia da página
+
+![Captura real da versão desktop da Landing Page Arquitetura InDecor, com apresentação do evento fictício, formulário demonstrativo e seções de ambientes](img/preview-desktop-arquitetura.webp)
+
+*Captura completa da demonstração publicada. Projeto educacional: o evento é fictício e não recebe inscrições reais.*
+
 ## O que a página apresenta
 
 - Seção de abertura com data ilustrativa e apresentação do evento fictício.
